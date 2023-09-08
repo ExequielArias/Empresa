@@ -30,6 +30,7 @@ namespace Empresa
         private void InitializeComponent()
         {
             this.dgvGrilla = new System.Windows.Forms.DataGridView();
+            this.cmdIr = new System.Windows.Forms.Button();
             ((System.ComponentModel.ISupportInitialize)(this.dgvGrilla)).BeginInit();
             this.SuspendLayout();
             // 
@@ -44,11 +45,22 @@ namespace Empresa
             this.dgvGrilla.Size = new System.Drawing.Size(407, 387);
             this.dgvGrilla.TabIndex = 0;
             // 
+            // cmdIr
+            // 
+            this.cmdIr.Location = new System.Drawing.Point(181, 473);
+            this.cmdIr.Name = "cmdIr";
+            this.cmdIr.Size = new System.Drawing.Size(75, 23);
+            this.cmdIr.TabIndex = 1;
+            this.cmdIr.Text = "Ir a form2";
+            this.cmdIr.UseVisualStyleBackColor = true;
+            this.cmdIr.Click += new System.EventHandler(this.cmdIr_Click);
+            // 
             // frmEmpleados
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
-            this.ClientSize = new System.Drawing.Size(438, 444);
+            this.ClientSize = new System.Drawing.Size(438, 563);
+            this.Controls.Add(this.cmdIr);
             this.Controls.Add(this.dgvGrilla);
             this.Name = "frmEmpleados";
             this.Text = "Empleados";
@@ -61,6 +73,7 @@ namespace Empresa
         #endregion
 
         private System.Windows.Forms.DataGridView dgvGrilla;
+        private System.Windows.Forms.Button cmdIr;
     }
 }
 

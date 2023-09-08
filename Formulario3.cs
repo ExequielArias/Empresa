@@ -10,23 +10,17 @@ using System.Windows.Forms;
 
 namespace Empresa
 {
-    public partial class frmEmpleados : Form
+    public partial class frmFormulario3 : Form
     {
-        public frmEmpleados()
+        public frmFormulario3()
         {
             InitializeComponent();
         }
 
-        private void frmEmpleados_Load(object sender, EventArgs e)
+        private void Formulario3_Load(object sender, EventArgs e)
         {
             Empleados oEmpleados = new Empleados();
-            oEmpleados.ver(dgvGrilla);   
-        }
-
-        private void cmdIr_Click(object sender, EventArgs e)
-        {
-            frmFormulario2 Formulario2 = new frmFormulario2(); 
-                Formulario2.ShowDialog(); 
+            oEmpleados.verExe(dgvForm3);  
         }
     }
 }

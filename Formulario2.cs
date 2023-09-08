@@ -10,23 +10,28 @@ using System.Windows.Forms;
 
 namespace Empresa
 {
-    public partial class frmEmpleados : Form
+    public partial class frmFormulario2 : Form
     {
-        public frmEmpleados()
+        public frmFormulario2()
         {
             InitializeComponent();
         }
 
-        private void frmEmpleados_Load(object sender, EventArgs e)
+        private void frmFormulario2_Load(object sender, EventArgs e)
         {
             Empleados oEmpleados = new Empleados();
-            oEmpleados.ver(dgvGrilla);   
+            oEmpleados.ver(cboNombre);
+            oEmpleados.ver(lstNombre);
         }
 
-        private void cmdIr_Click(object sender, EventArgs e)
+        private void cboNombre_SelectedIndexChanged(object sender, EventArgs e)
         {
-            frmFormulario2 Formulario2 = new frmFormulario2(); 
-                Formulario2.ShowDialog(); 
+
+        }
+
+        private void cmdFrm3_Click(object sender, EventArgs e)
+        {
+
         }
     }
 }
