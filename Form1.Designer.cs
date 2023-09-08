@@ -41,7 +41,7 @@ namespace Empresa
             this.dgvGrilla.Location = new System.Drawing.Point(19, 33);
             this.dgvGrilla.Name = "dgvGrilla";
             this.dgvGrilla.ReadOnly = true;
-            this.dgvGrilla.Size = new System.Drawing.Size(400, 387);
+            this.dgvGrilla.Size = new System.Drawing.Size(407, 387);
             this.dgvGrilla.TabIndex = 0;
             // 
             // frmEmpleados
