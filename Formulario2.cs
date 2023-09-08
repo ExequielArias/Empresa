@@ -31,7 +31,8 @@ namespace Empresa
 
         private void cmdFrm3_Click(object sender, EventArgs e)
         {
-
+           frmFormulario3 Formulario3 = new frmFormulario3();
+            Formulario3.ShowDialog();
         }
     }
 }

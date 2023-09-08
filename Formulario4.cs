@@ -10,9 +10,9 @@ using System.Windows.Forms;
 
 namespace Empresa
 {
-    public partial class Formulario4 : Form
+    public partial class frmFormulario4 : Form
     {
-        public Formulario4()
+        public frmFormulario4()
         {
             InitializeComponent();
         }

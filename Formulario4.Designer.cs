@@ -1,7 +1,7 @@
 ﻿
 namespace Empresa
 {
-    partial class Formulario4
+    partial class frmFormulario4
     {
         /// <summary>
         /// Required designer variable.
@@ -89,7 +89,7 @@ namespace Empresa
             this.Sueldo.Name = "Sueldo";
             this.Sueldo.ReadOnly = true;
             // 
-            // Formulario4
+            // frmFormulario4
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
@@ -97,7 +97,7 @@ namespace Empresa
             this.Controls.Add(this.dgvForm4);
             this.Controls.Add(this.cboSeleccione);
             this.Controls.Add(this.label1);
-            this.Name = "Formulario4";
+            this.Name = "frmFormulario4";
             this.Text = "Formulario4";
             this.Load += new System.EventHandler(this.Formulario4_Load);
             ((System.ComponentModel.ISupportInitialize)(this.dgvForm4)).EndInit();

@@ -22,5 +22,11 @@ namespace Empresa
             Empleados oEmpleados = new Empleados();
             oEmpleados.verExe(dgvForm3);  
         }
+
+        private void cmdForm4_Click(object sender, EventArgs e)
+        {
+            frmFormulario4 Formulario4 = new frmFormulario4();
+            Formulario4.ShowDialog();
+        }
     }
 }
